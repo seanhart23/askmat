@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+body {
+	font-size: 14px;
+}
+
+.button-text {
+	border: none;
+	padding: none;
+	box-shadow: none;
+	background: transparent;
+}
+
+.center {
+	width: 100%;
+	text-align: center;
+}
+
+.filter {
+	height: 100%;
+	width:100%;
+	position: absolute;
+	background: rgba(0, 0, 0, .6);
+}
+
+h1 {
+	text-shadow: 2px 2px 4px black;
+	font-weight: 300;
+	font-size: 50px;
+}
+
+h5 {
+	text-shadow: 2px 2px 4px black;
+	font-weight: 300;
+}
+
+h6 {
+	font-weight: 300;
+}
+
+input {
+	padding: 3px 5px!important;
+	/* height: auto!important; */
+}
+
+#logo {
+	height: 75px;
+}
+
+.main {
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	top: 0;
+}
+
+.navbar {
+	background: transparent;
+}
+
+.navbar-brand {
+	font-family: 'Alfa Slab One', cursive !important;
+	font-size: 40px;
+	text-shadow: 2px 2px 4px black;
+}
+
+.primary-background {
+	background-color: #232E51!important;
+}
+
+.primary-color {
+	color: #232E51!important;
+}
+
+.profile-image {
+	border-radius: 50%;
+	width: 100%;
+}
+
+.profile-image-container {
+	height: 80%;
+	position: relative;
+}
+
+#register {
+	position: relative;
+	margin-top: 150px;
+	border: 1px solid lightgray;
+	padding: 25px;
+	box-shadow: 10px 10px 50px black;
+	border-radius: 5px;
+}
+
+#sample {
+	height: auto;
+	width: 100%;
+	border-radius: 10px;
+	position: relative;
+	z-index: 10;
+	margin-top: 50px;
+	padding: 20px;
+	box-shadow: 10px 10px 50px black;
+	border: 1px solid lightgray;
+}
+
+#search-container {
+	padding-top: 175px;
+	position: relative;
+	z-index: 10;
+	width: 100%;
+	margin: auto;
+}
+
+.secondary-background {
+	background: #F2F6F5!important;
+}
+
+.secondary-text {
+	color: #F2F6F5!important;
+}
+
+video {
+	position: absolute;
+}
+
+.view-profile {
+	margin-top: 10px;
+}

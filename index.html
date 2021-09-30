@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ask MAT</title>
+
+	<!---------- Styles ---------->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./web-styles.css">
+  <link rel="stylesheet" href="./mobile-styles.css">
+  <meta charset="UTF-8">
+
+	<!---------- Scripts ---------->
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="./start-scripts.js"></script>
+
+	<!---------- Meta Tags ---------->
+
+	<!---------- Mobile Viewport ---------->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!---------- Favicon ---------->
+  <link rel="icon" href="favicon.ico">
+  
+</head>
+<body>
+
+<div class="main-container">
+
+<!---------- Navigation ---------->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+  <a class="navbar-brand primary-color" href="#"><img src="./images/man.png" id='logo'>askMAT</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li>
+        <form class="form-inline my-2 my-lg-0" id='login'>
+          <input class="form-control mr-sm-2" placeholder="Username">
+          <input class="form-control mr-sm-2" placeholder="Password">
+          <button class="my-2 my-sm-0 btn btn-secondary primary-background" type="submit">Login</button>
+        </form>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class='main'>
+  <video height="100%" autoplay muted loop>
+    <source src="./images/guitar.mp4" type="video/mp4">
+  </video>
+  <div class='filter'></div>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-lg-8'>
+        <div class='secondary-text' id='search-container'>
+          <h1 class=''>Social Media for <br>Seriously Talented People</h1>
+          <hr>
+          <h5>Get connected with talented people all over the world.  Search, share and support for artists looking to make a name for themselves.</h5>
+          <div class='primary-background' id='sample'>
+              <div class='row'>
+                <div class='col-lg-3'>
+                <div class='profile-image-container'>
+                  <img src='./images/girl.jpg' class='profile-image'></div>
+                </div>
+                <div class='col-lg-9'>
+                  <h4 class='name'>Jane Smith</h4>
+                  <hr>
+                  <h6>Hi! I'm Jane and I love to sing. I can be found Sunday mornings with my local church choir and on most weekends you can catch me performing at local pubs. Please check out my videos and if you like what you see, let's chat!</h6>
+                  <button type="button" class="btn btn-light view-profile">View Profile</button>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class='col-lg-4'>
+        <form class='secondary-background' id='register'>
+          <h3>Join Today!</h3>
+          <hr>
+          <div class='form-group'>
+            <label>First Name</label>
+            <input class='form-control'>
+          </div>
+          <div class='form-group'>
+            <label>Last Name</label>
+            <input class='form-control'>
+          </div>
+          <div class='form-group'>
+            <label>Email Address</label>
+            <input type='email' class='form-control'>
+          </div>
+          <div class='form-group'>
+            <label>Date of Birth</label>
+            <input type='date' class='form-control'>
+          </div>
+          <div class='form-group'>
+            <label>Password</label>
+            <input type='password' class='form-control'>
+          </div>
+          <div class='form-group'>
+            <button type='submit' class='btn primary-background secondary-text'>Register</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="footer">
+  <div class="copyright"></a></div>
+</div>
+</div>
+</body>
+</html>
